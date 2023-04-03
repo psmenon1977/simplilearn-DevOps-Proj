@@ -20,7 +20,7 @@ public class HelloWorldControllerTest {
 	 
 	    // Given
 	    
-	    HttpUriRequest request = new HttpGet( "http://localhost:8080/greeting?name=User" );
+	    HttpUriRequest request = new HttpGet( "http://localhost:8081/certProj/greeting?name=User" );
 
 	    // When
 	    HttpResponse httpResponse = HttpClientBuilder.create().build().execute( request );
